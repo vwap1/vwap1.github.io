@@ -1,7 +1,6 @@
 
 /*
-버그를 수정한 원시 파일
-VWAP 지표에서 사용한다
+Calculate 옵션에 따라서 폭주하는 버그를 수정
 */
 
 #region Using declarations
