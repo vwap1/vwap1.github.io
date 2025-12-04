@@ -1,13 +1,7 @@
 (function() {
    const h3 = document.getElementById('title');
    if ("index" == document.title) {
-     // h3.append("Index");
-     const a1 = document.createElement('a');
-     a1.href = "/";
-     a1.style = "color:royalblue";
-     a1.append("Home");
-     h3.appendChild(a1);
-     h3.append(" :: " + document.title);
+     h3.append("Home");
    }
    else {
      const a1 = document.createElement('a');
